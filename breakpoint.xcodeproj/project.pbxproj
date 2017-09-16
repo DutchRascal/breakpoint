@@ -23,6 +23,7 @@
 		65E8B6A41F6AE36200D0CE36 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E8B6A31F6AE36200D0CE36 /* CreatePostVC.swift */; };
 		65E8B6A61F6C0A4900D0CE36 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E8B6A51F6C0A4900D0CE36 /* UIViewExt.swift */; };
 		65E8B6A81F6C1B9C00D0CE36 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E8B6A71F6C1B9C00D0CE36 /* FeedCell.swift */; };
+		65E8B6AA1F6C2A8100D0CE36 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E8B6A91F6C2A8100D0CE36 /* Message.swift */; };
 		65FF90401F69312E00E656B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65FF903F1F69312E00E656B2 /* GoogleService-Info.plist */; };
 		65FF90471F6932EA00E656B2 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF90461F6932EA00E656B2 /* DataService.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 		65E8B6A31F6AE36200D0CE36 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		65E8B6A51F6C0A4900D0CE36 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		65E8B6A71F6C1B9C00D0CE36 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		65E8B6A91F6C2A8100D0CE36 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		65FF903F1F69312E00E656B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Users/Andre/Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		65FF90461F6932EA00E656B2 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		E5CA35D8FCEE59FE446325BC /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		65FF90421F6931EE00E656B2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				65E8B6A91F6C2A8100D0CE36 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				65292AFD1F69306C00CF8475 /* FeedVC.swift in Sources */,
 				65DA8E2E1F697838009362CC /* InsetTextField.swift in Sources */,
 				65FF90471F6932EA00E656B2 /* DataService.swift in Sources */,
+				65E8B6AA1F6C2A8100D0CE36 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
